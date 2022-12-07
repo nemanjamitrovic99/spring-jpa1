@@ -10,28 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94b892f5-1516-49a7-b61a-104ca25952f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.data/db/conference/conf_users.frm" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/conference/conf_users.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/conference/conf_users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/conference/conf_users.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/conference/hibernate_sequence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/conference/hibernate_sequence.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/db/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/conference/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/conference/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/conference/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/com/pluralsight/conference/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/com/pluralsight/conference/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/conference/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/conference/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +54,11 @@
     "spring.configuration.checksum": "ab3049da9a0cd8d6e8b7c62586752472"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.pluralsight.conference.service" />
+    </key>
+  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.69">
     <configuration name="ConferenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
@@ -175,7 +173,7 @@
       <updated>1612498162309</updated>
       <workItem from="1612498163488" duration="460000" />
       <workItem from="1670317522555" duration="1711000" />
-      <workItem from="1670338371669" duration="8485000" />
+      <workItem from="1670338371669" duration="9610000" />
     </task>
     <servers />
   </component>
