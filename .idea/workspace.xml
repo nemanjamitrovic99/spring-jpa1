@@ -10,9 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94b892f5-1516-49a7-b61a-104ca25952f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.data/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/.data/db/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/conference/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/conference/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/conference/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/conference/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/com/pluralsight/conference/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/conference-0.0.1-SNAPSHOT/WEB-INF/classes/com/pluralsight/conference/model/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +166,7 @@
       <updated>1612498162309</updated>
       <workItem from="1612498163488" duration="460000" />
       <workItem from="1670317522555" duration="1711000" />
-      <workItem from="1670338371669" duration="3955000" />
+      <workItem from="1670338371669" duration="4933000" />
     </task>
     <servers />
   </component>
