@@ -31,6 +31,8 @@ public class UserController {
     public User postUser(User user) {
         System.out.println("User firstname:" + user.getFirstname());
 
+        userService.save(user);
+
         return user;
     }
 

@@ -13,6 +13,7 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public User save(User user){
+        System.out.println("Repository: "+user.getFirstname());
         entityManager.persist(user);
         return user;
     }

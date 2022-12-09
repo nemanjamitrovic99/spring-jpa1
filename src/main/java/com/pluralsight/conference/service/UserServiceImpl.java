@@ -16,6 +16,7 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional
     public User save(User user){
+        System.out.println("Service: "+user.getFirstname());
         return userRepository.save(user);
     }
 }
