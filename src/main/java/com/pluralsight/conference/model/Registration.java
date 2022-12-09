@@ -1,5 +1,7 @@
 package com.pluralsight.conference.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import java.util.ArrayList;
@@ -16,7 +18,8 @@ public class Registration {
     @NotEmpty
     private String name;
 
-    @OneToMany(mappedBy = "registration", cascade = CascadeType.ALL)
+    @JsonManagedReference
+    @OneToMany(mappedBy = "registration", cascade = CascadeType.ALL, fetch=FetchType.LAZY)
     private List<Course> courses=new ArrayList<>();
 
     public Long getId() {
