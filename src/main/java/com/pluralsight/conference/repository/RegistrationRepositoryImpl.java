@@ -1,6 +1,7 @@
 package com.pluralsight.conference.repository;
 
 import com.pluralsight.conference.model.Registration;
+import com.pluralsight.conference.model.RegistrationReport;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -24,5 +25,16 @@ public class RegistrationRepositoryImpl implements RegistrationRepository {
         List<Registration> registrations=entityManager.createQuery("Select r from Registration r").getResultList();
 
         return registrations;
+    }
+
+    @Override
+    public List<RegistrationReport> findAllReports() {
+        String jpql="Select new com.pluralsight.conference.model.RegistrationReport" +
+                "(r.name, c.name, c.description) " +
+                "from Registration r, Course c " +
+                "where r.id = c.registration.id";
+        List<RegistrationReport> registrationReports=entityManager.createQuery(jpql).getResultList();
+
+        return registrationReports;
     }
 }
