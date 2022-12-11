@@ -8,35 +8,35 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
-@Repository
-public class RegistrationRepositoryImpl implements RegistrationRepository {
+//@Repository
+//public class RegistrationRepositoryImpl implements RegistrationRepository {
+//
+//    @PersistenceContext
+//    private EntityManager entityManager;
 
-    @PersistenceContext
-    private EntityManager entityManager;
+//    @Override
+//    public Registration save(Registration registration){
+//        if(registration.getId() == null){
+//            entityManager.persist(registration);
+//        }
+//        else{
+//            entityManager.merge(registration);
+//        }
+//        return registration;
+//    }
 
-    @Override
-    public Registration save(Registration registration){
-        if(registration.getId() == null){
-            entityManager.persist(registration);
-        }
-        else{
-            entityManager.merge(registration);
-        }
-        return registration;
-    }
-
-    @Override
-    public List<Registration> findAll() {
-        List<Registration> registrations=entityManager.createQuery("Select r from Registration r").getResultList();
-
-        return registrations;
-    }
-
-    @Override
-    public List<RegistrationReport> findAllReports() {
-
-        List<RegistrationReport> registrationReports=entityManager.createNamedQuery(Registration.REGISTRATION_REPORT).getResultList();
-
-        return registrationReports;
-    }
-}
+//    @Override
+//    public List<Registration> findAll() {
+//        List<Registration> registrations=entityManager.createQuery("Select r from Registration r").getResultList();
+//
+//        return registrations;
+//    }
+//
+//    @Override
+//    public List<RegistrationReport> findAllReports() {
+//
+//        List<RegistrationReport> registrationReports=entityManager.createNamedQuery(Registration.REGISTRATION_REPORT).getResultList();
+//
+//        return registrationReports;
+//    }
+//}
